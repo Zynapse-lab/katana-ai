@@ -29,7 +29,7 @@
       "safe_label": "standard",
       "ollama_tag": "qwen2.5:7b",
       "hf_repo": ""
-    }
+    },
     {
       "id": "qwen",
       "name": "kuchcupuchu",
