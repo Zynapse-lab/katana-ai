@@ -1,0 +1,32 @@
+[
+  {
+    "id": "deepseek-coder-6.7b",
+    "name": "DeepSeek Coder 6.7B",
+    "description": "An excellent mid-tier coding assistant optimized for Python and JavaScript.",
+    "category": "coding",
+    "tier": "mid",
+    "size": "6.7B",
+    "vram_required": 6,
+    "ram_required": 8,
+    "backend": "ollama",
+    "recommended_quant": "Q4_K_M",
+    "safe_label": "standard",
+    "ollama_tag": "deepseek-coder:6.7b",
+    "hf_repo": ""
+  },
+  {
+    "id": "hermes-3-llama",
+    "name": "Hermes 3 Llama 8B",
+    "description": "Highly capable general chat model with uncensored, creative outputs.",
+    "category": "chat",
+    "tier": "budget",
+    "size": "8B",
+    "vram_required": 6,
+    "ram_required": 8,
+    "backend": "ollama",
+    "recommended_quant": "Q4_0",
+    "safe_label": "reduced-filters",
+    "ollama_tag": "hermes3:8b",
+    "hf_repo": null
+  }
+]
