@@ -1,4 +1,5 @@
-  {
+[
+{
     "id": "deepseek-coder-6.7b",
     "name": "cutie cooker",
     "description": "An excellent mid-tier coding assistant optimized for Python and JavaScript.",
@@ -28,4 +29,5 @@
     "ollama_tag": "hermes3:8b",
     "hf_repo": null
   }
+]
 
