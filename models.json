@@ -57,7 +57,7 @@
       "backend": "ollama",
       "recommended_quant": "Q4_K_M",
       "safe_label": "standard",
-      "ollama_tag": "qwen2.5:7b",
+      "ollama_tag": "qgullubullu",
       "hf_repo": ""
     }
   ]
