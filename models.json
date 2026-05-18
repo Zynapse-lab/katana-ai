@@ -1,4 +1,3 @@
-[
   {
     "id": "deepseek-coder-6.7b",
     "name": "cutie cooker",
@@ -29,4 +28,4 @@
     "ollama_tag": "hermes3:8b",
     "hf_repo": null
   }
-]
+
