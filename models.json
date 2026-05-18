@@ -31,7 +31,7 @@
       "hf_repo": ""
     }
     {
-      "id": "qwen2.5-7b",
+      "id": "qwen",
       "name": "kuchcupuchu",
       "description": "Excellent all-around 7B model by Alibaba. Great for chat, coding, and general tasks.",
       "category": "chat",
