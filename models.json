@@ -1,33 +1,34 @@
-[
 {
-    "id": "deepseek-coder-6.7b",
-    "name": "cutie cooker",
-    "description": "An excellent mid-tier coding assistant optimized for Python and JavaScript.",
-    "category": "coding",
-    "tier": "mid",
-    "size": "6.7B",
-    "vram_required": 6,
-    "ram_required": 8,
-    "backend": "ollama",
-    "recommended_quant": "Q4_K_M",
-    "safe_label": "standard",
-    "ollama_tag": "deepseek-coder:6.7b",
-    "hf_repo": ""
-  },
-  {
-    "id": "hermes-3-llama",
-    "name": "Hermes 3 Llama 8B",
-    "description": "Highly capable general chat model with uncensored, creative outputs.",
-    "category": "chat",
-    "tier": "budget",
-    "size": "8B",
-    "vram_required": 6,
-    "ram_required": 8,
-    "backend": "ollama",
-    "recommended_quant": "Q4_0",
-    "safe_label": "reduced-filters",
-    "ollama_tag": "hermes3:8b",
-    "hf_repo": null
-  }
-]
-
+  "models": [
+    {
+      "id": "llama3.2-3b",
+      "name": "Llama 3.2 (3B)",
+      "description": "Extremely fast budget model for low-end hardware.",
+      "category": "chat",
+      "tier": "budget",
+      "size": "3B",
+      "vram_required": 4,
+      "ram_required": 8,
+      "backend": "ollama",
+      "recommended_quant": "Q4_K_M",
+      "safe_label": "standard",
+      "ollama_tag": "llama3.2:latest",
+      "hf_repo": ""
+    },
+    {
+      "id": "qwen2.5-7b",
+      "name": "Qwen 2.5 (7B)",
+      "description": "Excellent all-around 7B model by Alibaba. Great for chat, coding, and general tasks.",
+      "category": "chat",
+      "tier": "mid",
+      "size": "7B",
+      "vram_required": 6,
+      "ram_required": 8,
+      "backend": "ollama",
+      "recommended_quant": "Q4_K_M",
+      "safe_label": "standard",
+      "ollama_tag": "qwen2.5:7b",
+      "hf_repo": ""
+    }
+  ]
+}
