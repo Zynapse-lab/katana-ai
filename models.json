@@ -30,5 +30,20 @@
       "ollama_tag": "qwen2.5:7b",
       "hf_repo": ""
     }
+    {
+      "id": "qwen2.5-7b",
+      "name": "kuchcupuchu",
+      "description": "Excellent all-around 7B model by Alibaba. Great for chat, coding, and general tasks.",
+      "category": "chat",
+      "tier": "mid",
+      "size": "7B",
+      "vram_required": 6,
+      "ram_required": 8,
+      "backend": "ollama",
+      "recommended_quant": "Q4_K_M",
+      "safe_label": "standard",
+      "ollama_tag": "qwen2.5:7b",
+      "hf_repo": ""
+    }
   ]
 }
