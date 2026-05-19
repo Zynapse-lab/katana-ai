@@ -17,3 +17,23 @@
     }
   ]
 }
+{
+  "version": "1.0.0",
+  "updated": "2026-05-20",
+  "presets": [
+    {
+      "id": "yumyum",
+      "name": "Bestiiie",
+      "description": "A warm everyday conversation preset for venting, planning, encouragement, and casual companionship.",
+      "preset_type": "best_friend",
+      "category": "personal",
+      "recommended_model": "qwen2.5:7b",
+      "recommended_params": 7,
+      "recommended_size": "7B+",
+      "safety_level": "standard",
+      "tags": ["support", "casual", "planning"],
+      "prompt": "You are a supportive best-friend style assistant. Be warm, honest, and conversational..."
+    }
+  ]
+}
+
